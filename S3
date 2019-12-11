@@ -1,0 +1,98 @@
+[
+  {
+    "version": "1.3",
+    "accountId": "123456789",
+    "configurationItemCaptureTime": "2019-12-11T00:46:39.652Z",
+    "configurationItemStatus": "ResourceDiscovered",
+    "configurationStateId": "1576025199652",
+    "configurationItemMD5Hash": "",
+    "arn": "arn:aws:s3:::genome-bucket",
+    "resourceType": "AWS::S3::Bucket",
+    "resourceId": "genome-bucket",
+    "resourceName": "genome-bucket",
+    "awsRegion": "us-east-1",
+    "availabilityZone": "Regional",
+    "resourceCreationTime": "2019-12-10T23:55:02.000Z",
+    "tags": {},
+    "relatedEvents": [],
+    "relationships": [],
+    "configuration": {
+      "name": "genome-bucket",
+      "owner": {
+        "id": "2352c3afe32c6adskas91jkdaw9dajj10dkakdbd9291nd499308ea7ceec87ce9"
+      },
+      "creationDate": "2019-12-10T23:55:02.000Z"
+    },
+    "supplementaryConfiguration": {
+      "AccessControlList": {
+        "grantSet": null,
+        "grantList": [
+          {
+            "grantee": {
+              "id": "2352c3afe32c6adskas91jkdaw9dajj10dkakdbd9291nd499308ea7ceec87ce9",
+              "displayName": null
+            },
+            "permission": "FullControl"
+          }
+        ],
+        "owner": {
+          "displayName": null,
+          "id": "2352c3afe32c6adskas91jkdaw9dajj10dkakdbd9291nd499308ea7ceec87ce9"
+        },
+        "isRequesterCharged": false
+      },
+      "PublicAccessBlockConfiguration": {
+        "blockPublicAcls": false,
+        "ignorePublicAcls": false,
+        "blockPublicPolicy": false,
+        "restrictPublicBuckets": false
+      },
+      "BucketCrossOriginConfiguration": {
+        "rules": [
+          {
+            "id": null,
+            "allowedMethods": [
+              "GET"
+            ],
+            "allowedOrigins": [
+              "*"
+            ],
+            "maxAgeSeconds": 0,
+            "exposedHeaders": null,
+            "allowedHeaders": [
+              "*"
+            ]
+          }
+        ]
+      },
+      "BucketLoggingConfiguration": {
+        "destinationBucketName": null,
+        "logFilePrefix": null
+      },
+      "BucketPolicy": {
+        "policyText": null
+      },
+      "BucketAccelerateConfiguration": {
+        "status": null
+      },
+      "IsRequesterPaysEnabled": "false",
+      "BucketVersioningConfiguration": {
+        "status": "Off",
+        "isMfaDeleteEnabled": null
+      },
+      "ServerSideEncryptionConfiguration": {
+        "rules": [
+          {
+            "applyServerSideEncryptionByDefault": {
+              "sseAlgorithm": "AES256",
+              "kmsMasterKeyID": null
+            }
+          }
+        ]
+      },
+      "BucketNotificationConfiguration": {
+        "configurations": {}
+      }
+    }
+  }
+]

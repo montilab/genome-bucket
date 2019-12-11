@@ -1,0 +1,26 @@
+[
+    {
+        "type": "bigwig",
+        "name": "Alpha",
+        "url": "https://genome-bucket.s3.us-east-1.amazonaws.com/alpha-lpIUCNPdcupkQgdNkp86PBz7bUZ6MJA87BrWSphwLPOEM8rc5VikxliD2qHILKo5.bigWig",
+        "options": {
+            "color": "black"
+        }
+    },
+    {
+        "type": "bigwig",
+        "name": "Beta",
+        "url": "https://genome-bucket.s3.us-east-1.amazonaws.com/beta-WF277AWwxyQYPEWggTzfepIqDtfIpRy6Uk8I8r3dorVgnYjRrCMhKHOk8FZ3j7Wc.bigwig",
+        "options": {
+            "color": "black"
+        }
+    },
+    {
+        "type": "bigwig",
+        "name": "Gamma",
+        "url": "https://genome-bucket.s3.us-east-1.amazonaws.com/gamma-09628FsxNzRKNi5tzekzDnupJlPGDowvpwqxwqmFgWyZ79ZhlSCVrptQEesm9mkH.bigWig",
+        "options": {
+            "color": "black"
+        }
+    }
+]
