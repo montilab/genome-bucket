@@ -41,7 +41,7 @@ python3 datahub.py -f raw-data/alpha.bigWig \
 --outdir data
 ```
 
-*Data Hub Configuration File*
+*Datahub Configuration File*
 ```
 [
     {
