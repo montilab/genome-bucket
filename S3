@@ -55,7 +55,7 @@
               "GET"
             ],
             "allowedOrigins": [
-              "*"
+              "epigenomegateway.wustl.edu"
             ],
             "maxAgeSeconds": 0,
             "exposedHeaders": null,
